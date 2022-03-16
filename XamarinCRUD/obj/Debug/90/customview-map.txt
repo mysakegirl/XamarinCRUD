@@ -4,13 +4,13 @@ android.support.design.widget.BottomNavigationView;obj\Debug\90\res\layout\activ
 background;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
 Button;obj\Debug\90\res\layout\activity_main.xml
-cache-path;C:\Users\My_PC\source\repos\XamarinCRUD\obj\Debug\90\lp\37\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+cache-path;C:\Users\SDO02\Desktop\Calc\XamarinCRUD\XamarinCRUD\obj\Debug\90\lp\37\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 color;obj\Debug\90\res\values\colors.xml
 color;obj\Debug\90\res\values\ic_launcher_background.xml
 dimen;obj\Debug\90\res\values\dimens.xml
 EditText;obj\Debug\90\res\layout\activity_main.xml
-external-cache-path;C:\Users\My_PC\source\repos\XamarinCRUD\obj\Debug\90\lp\37\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
-external-path;C:\Users\My_PC\source\repos\XamarinCRUD\obj\Debug\90\lp\37\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-cache-path;C:\Users\SDO02\Desktop\Calc\XamarinCRUD\XamarinCRUD\obj\Debug\90\lp\37\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;C:\Users\SDO02\Desktop\Calc\XamarinCRUD\XamarinCRUD\obj\Debug\90\lp\37\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
 item;obj\Debug\90\res\menu\navigation.xml
@@ -22,7 +22,7 @@ menu;obj\Debug\90\res\menu\navigation.xml
 path;obj\Debug\90\res\drawable\ic_dashboard_black_24dp.xml
 path;obj\Debug\90\res\drawable\ic_home_black_24dp.xml
 path;obj\Debug\90\res\drawable\ic_notifications_black_24dp.xml
-paths;C:\Users\My_PC\source\repos\XamarinCRUD\obj\Debug\90\lp\37\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+paths;C:\Users\SDO02\Desktop\Calc\XamarinCRUD\XamarinCRUD\obj\Debug\90\lp\37\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 RelativeLayout;obj\Debug\90\res\layout\activity_main.xml
 resources;obj\Debug\90\res\values\colors.xml
 resources;obj\Debug\90\res\values\dimens.xml

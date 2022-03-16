@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\My_PC\\source\\repos\\XamarinCRUD\\XamarinCRUD.csproj": {}
+    "C:\\Users\\SDO02\\Desktop\\Calc\\XamarinCRUD\\XamarinCRUD\\XamarinCRUD.csproj": {}
   },
   "projects": {
-    "C:\\Users\\My_PC\\source\\repos\\XamarinCRUD\\XamarinCRUD.csproj": {
+    "C:\\Users\\SDO02\\Desktop\\Calc\\XamarinCRUD\\XamarinCRUD\\XamarinCRUD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\My_PC\\source\\repos\\XamarinCRUD\\XamarinCRUD.csproj",
+        "projectUniqueName": "C:\\Users\\SDO02\\Desktop\\Calc\\XamarinCRUD\\XamarinCRUD\\XamarinCRUD.csproj",
         "projectName": "XamarinCRUD",
-        "projectPath": "C:\\Users\\My_PC\\source\\repos\\XamarinCRUD\\XamarinCRUD.csproj",
-        "packagesPath": "C:\\Users\\My_PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\My_PC\\source\\repos\\XamarinCRUD\\obj\\",
+        "projectPath": "C:\\Users\\SDO02\\Desktop\\Calc\\XamarinCRUD\\XamarinCRUD\\XamarinCRUD.csproj",
+        "packagesPath": "C:\\Users\\SDO02\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SDO02\\Desktop\\Calc\\XamarinCRUD\\XamarinCRUD\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\My_PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SDO02\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

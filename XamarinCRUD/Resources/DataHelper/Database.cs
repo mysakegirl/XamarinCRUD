@@ -41,7 +41,8 @@ namespace XamarinCRUD.Resources.DataHelper
             {
                 using (var connection = new SQLiteConnection(System.IO.Path.Combine(folder, "Person.db")))
                 {
-                    connection.Insert(person);
+                    //connection.Insert(person);
+                    connection.Query<Person>("INSERT INTO PERSON(FirstName,LastName,Age) Values (?,?,?)", person.FirstName, person.LastName, person.Age, person.Id);
                     return true;
                 }
             }
@@ -58,7 +59,7 @@ namespace XamarinCRUD.Resources.DataHelper
             {
                 using (var connection = new SQLiteConnection(System.IO.Path.Combine(folder, "Person.db")))
                 {
-                    connection.Query<Person>($"UPDATE PERSON SET FirstName = {person.FirstName}, LastName = {person.LastName}, Age = {person.Age} WHERE Id = {person.Id}");
+                    connection.Query<Person>($"UPDATE PERSON SET FirstName=?, LastName=?, Age=? WHERE Id=?",person.FirstName,person.LastName,person.Age,person.Id);
                     return true;
                 }
             }

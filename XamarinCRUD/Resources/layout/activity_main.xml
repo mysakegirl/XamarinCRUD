@@ -30,6 +30,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/linearLayout1">
+            <TextView
+                android:text="id"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idTxt" />
+
               <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -51,11 +51,12 @@ namespace XamarinCRUD.Resources
             var txtFName = view.FindViewById<TextView>(Resource.Id.textView1);
             var txtLName = view.FindViewById<TextView>(Resource.Id.textView2);
             var txtAge = view.FindViewById<TextView>(Resource.Id.textView3);
-
+            var txtId = view.FindViewById<TextView>(Resource.Id.textView4);
 
             txtFName.Text = lstPerson[position].FirstName;
             txtLName.Text = lstPerson[position].LastName;
             txtAge.Text = lstPerson[position].Age.ToString();
+            txtId.Text = lstPerson[position].Id.ToString();
             return view; 
         }
     }

@@ -39,6 +39,7 @@ namespace XamarinCRUD
             var edtFName = FindViewById<EditText>(Resource.Id.fname);
             var edtLName = FindViewById<EditText>(Resource.Id.lname);
             var edtAge = FindViewById<EditText>(Resource.Id.age);
+            var edtId = FindViewById<TextView>(Resource.Id.idTxt);
             lstData = FindViewById<ListView>(Resource.Id.personList);
             var btnAdd = FindViewById<Button>(Resource.Id.addbtn);
             var btnDelete = FindViewById<Button>(Resource.Id.deletebtn);
@@ -60,6 +61,10 @@ namespace XamarinCRUD
                 {
                     Toast.MakeText(this, "Successfully Added Person", ToastLength.Short).Show();
                     LoadData();
+                    edtFName.Text = "";
+                    edtLName.Text = "";
+                    edtAge.Text = "";
+                    edtId.Text = "0";
                 }
             };
             btnEdit.Click += delegate
@@ -68,12 +73,17 @@ namespace XamarinCRUD
                 {
                     FirstName = edtFName.Text,
                     LastName = edtLName.Text,
-                    Age = int.Parse(edtAge.Text)
+                    Age = int.Parse(edtAge.Text),
+                    Id = int.Parse(edtId.Text)
                 };
                 if (db.EditPerson(pers))
                 {
                     Toast.MakeText(this, "Successfully Edited Person", ToastLength.Short).Show();
                     LoadData();
+                    edtFName.Text = "";
+                    edtLName.Text = "";
+                    edtAge.Text = "";
+                    edtId.Text = "0";
                 }
             };
             btnDelete.Click += delegate
@@ -82,12 +92,17 @@ namespace XamarinCRUD
                 {
                     FirstName = edtFName.Text,
                     LastName = edtLName.Text,
-                    Age = int.Parse(edtAge.Text)
-                };
+                    Age = int.Parse(edtAge.Text),
+                    Id = int.Parse(edtId.Text)
+    };
                 if (db.DeletePerson(pers))
                 {
                     Toast.MakeText(this, "Successfully Deleted Person", ToastLength.Short).Show();
                     LoadData();
+                    edtFName.Text = "";
+                    edtLName.Text = "";
+                    edtAge.Text = "";
+                    edtId.Text = "0";
                 }
             };
 
@@ -105,11 +120,12 @@ namespace XamarinCRUD
                 var txtfname1 = e.View.FindViewById<TextView>(Resource.Id.textView1);
                 var txtlname1 = e.View.FindViewById<TextView>(Resource.Id.textView2);
                 var txtage1 = e.View.FindViewById<TextView>(Resource.Id.textView3);
+                var txtid = e.View.FindViewById<TextView>(Resource.Id.textView4);
 
                 edtFName.Text = txtfname1.Text;
                 edtLName.Text = txtlname1.Text;
                 edtAge.Text = txtage1.Text;
-
+                edtId.Text = txtid.Text;
             };
 
         }
