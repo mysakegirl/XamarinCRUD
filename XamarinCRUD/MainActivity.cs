@@ -14,7 +14,7 @@ using Android.Util;
 
 namespace XamarinCRUD
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = false)]
     public class MainActivity : AppCompatActivity, BottomNavigationView.IOnNavigationItemSelectedListener
     {
         TextView textMessage;
@@ -44,7 +44,7 @@ namespace XamarinCRUD
             var btnAdd = FindViewById<Button>(Resource.Id.addbtn);
             var btnDelete = FindViewById<Button>(Resource.Id.deletebtn);
             var btnEdit = FindViewById<Button>(Resource.Id.editbtn);
-
+            var upBtn = FindViewById<Button>(Resource.Id.uploadBtn);
 
             LoadData();
 

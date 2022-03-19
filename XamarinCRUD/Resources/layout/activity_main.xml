@@ -22,6 +22,11 @@
             android:layout_height="wrap_content"
             android:id="@+id/textView1"
             android:layout_gravity="center" />
+        <Button
+            android:text="Upload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/uploadBtn" />
          <LinearLayout
             android:padding="20dp"
             android:orientation="vertical"

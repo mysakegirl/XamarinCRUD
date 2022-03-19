@@ -3,6 +3,7 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "XamarinCRUD.dll" comes first in this list. */
 		"XamarinCRUD.dll",
+		"Plugin.Media.dll",
 		"SQLite-net.dll",
 		"SQLitePCL.raw.dll",
 		"SQLitePCLRaw.batteries_v2.dll",
